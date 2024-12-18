@@ -1,8 +1,7 @@
 # js_service
 
-
-
 Install dependencies: npm install
+
 Run the service: npm run dev
 
 ## Test with httpie:
