@@ -1,0 +1,18 @@
+{
+  "name": "js_service",
+  "packageManager": "yarn@4.4.1",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npx tsc",
+    "serve": "node dist/src/main.js",
+    "dev": "npx tsc-watch --onSuccess \"npm run serve\""
+  },
+  "dependencies": {
+    "express": "4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "5.0.0",
+    "@types/node": "22.10.2",
+    "typescript": "5.7.2"
+  }
+}
